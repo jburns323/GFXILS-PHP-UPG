@@ -1,0 +1,304 @@
+body {
+	padding:0px;
+	margin:0px;
+}
+
+body, td, th {
+	font-family:sans-serif;
+	font-size:10pt;
+}
+
+a img {
+	border:0px;
+}
+
+a {
+	color:#369;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#69f;
+	text-decoration:underline;
+}
+
+th {
+	text-align:left;
+}
+
+#editform input[type=text],
+#editform textarea {
+	width:300px;
+}
+
+#editform select {
+	width:150px;
+}
+
+#editform input[type=text]._Custom {
+	width:150px;
+}
+
+form {
+	margin:0px;
+	padding:0px;
+}
+
+#searchframe {
+	margin:20px;
+	padding:10px;
+	text-align:center;
+	border:1px #060 solid;
+}
+
+#editform {
+	margin:20px auto;
+	width:500px;
+	padding:10px;
+	border:1px #060 solid;
+	white-space:nowrap;
+}
+
+#editform table {
+	margin:0px auto;
+}
+
+#header h1 {
+	margin:10px;
+}
+
+#page {
+	margin:10px;
+}
+
+.nowrap {
+	white-space:nowrap;
+}
+
+.mainmenu {
+	font-size:14pt;
+}
+
+#mainmenulink {
+	float:right;
+	font-weight:bold;
+	font-size:14pt;
+	padding:15px;
+}
+
+#mainmenulink a {
+	color:#000;
+}
+
+#startoverlink {
+	float:right;
+	font-weight:bold;
+	font-size:14pt;
+}
+
+#newrecordlink {
+	float:left;
+	font-weight:bold;
+	font-size:10pt;
+}
+
+#duplicatelink {
+	float:left;
+	font-weight:bold;
+	font-size:10pt;
+	margin:0px 20px;
+}
+
+#startoverlink a {
+	color:#000;
+}
+
+#newrecordlink a {
+	color:#000;
+}
+
+#duplicatelink a {
+	color:#000;
+}
+	
+.error {
+	border:1px #f00 solid;
+	padding:10px;
+	margin:5px;
+	background-color:#f66;
+	color:#fff;
+	text-align:center;
+	font-weight:bold;
+}
+td.error {
+	padding:0px;
+	margin:0px;
+	background-color:#f00;
+}
+
+#duplicaterecordlink {
+	float:left;
+	font-size:8pt;
+	margin-top:-20px;
+}
+
+#deleterecordlink {
+	float:right;
+	font-size:8pt;
+	margin-top:-20px;
+}
+
+#deleterecordlink a {
+	color:#900;
+}
+
+#deleterecord {
+	border:1px #900 solid;
+	margin:20px;
+	padding:10px;
+	text-align:center;
+}
+
+#deleterecord table {
+	margin:0px auto;
+}
+
+#deleterecord_yesno {
+	width:80%;
+}
+
+#deleterecord_yesno td {
+	font-size:14pt;
+	font-weight:bold;
+	text-align:center;
+}
+
+#deleterecord_yesno td#yes a{
+	color:#900;
+}
+
+#deleterecord_yesno td#no a{
+	color:#090;
+}
+
+#duplicatedeleterecord {
+	width:500px;
+	padding:10px;
+	margin:10px auto;
+}
+
+#duplicatemode {
+	width:100%;
+	text-align:center;
+}
+
+#duplicatemode td {
+	width:50%;
+}
+
+table.form {
+	margin:0px auto;
+}
+
+#duplicaterecord {
+	border:1px #900 solid;
+	margin:20px;
+	padding:10px;
+	text-align:center;
+}
+
+#duplicaterecord table {
+	margin:0px auto;
+}
+
+#duplicaterecord_yesno {
+	width:80%;
+}
+
+#duplicaterecord_yesno td {
+	font-size:14pt;
+	font-weight:bold;
+	text-align:center;
+}
+
+#duplicaterecord_yesno td#no a{
+	color:#090;
+}
+
+table.tablesorter {
+	background-color:#cdcdcd;
+	margin:10px 0pt 15px;
+	width:100%;
+	text-align:left;
+}
+
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color:#e6eeee;
+	border:1px solid #fff;
+	font-size:8pt;
+	padding:4px;
+}
+
+table.tablesorter thead tr .header {
+	background-image:url(bg.gif);
+	background-repeat:no-repeat;
+	background-position:center right;
+	cursor:pointer;
+}
+
+table.tablesorter tbody td {
+	color:#3d3d3d;
+	padding:4px;
+	background-color:#fff;
+	vertical-align:top;
+	white-space:nowrap;
+}
+
+table.tablesorter tbody tr.odd td {
+	background-color:#f0f0f6;
+}
+
+table.tablesorter tbody td.edit,
+table.tablesorter tbody td.edit a {
+	color:#000;
+	text-align:center;
+}
+
+table.tablesorter thead tr .headerSortUp {
+	background-image:url(asc.gif);
+}
+
+table.tablesorter thead tr .headerSortDown {
+	background-image:url(desc.gif);
+}
+
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+	background-color:#8dbdd8;
+}
+
+table.tablesorter tbody tr:hover td {
+	background-color:#ddf;
+	cursor:pointer;
+}
+
+.highlight, .highlight td {
+	background-color:#ff9 !important;
+}
+
+.ui-autocomplete {
+	max-height: 200px;
+	overflow-y: auto;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+	/* add padding to account for vertical scrollbar */
+	padding-right: 20px;
+}
+
+* html .ui-autocomplete {
+	height: 200px;
+}
+
+.downarrow {
+	vertical-align:middle;
+	cursor:help;
+}
